@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heroes {
+  list-style: none;
+}
+
+.heroes li {
+  cursor: pointer;
+  width: 200px;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.details {
+  margin: 10px 0;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+
+
+}
+
+
+
+

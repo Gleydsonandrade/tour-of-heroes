@@ -1,0 +1,10 @@
+.cards-heroes{
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.cards-heroes:hover {
+  color: white;
+  background-color: #222;
+}

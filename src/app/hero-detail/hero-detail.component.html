@@ -1,12 +1,22 @@
-<div *ngIf="hero">
-  <h2 class="details"> Detalhes do {{ hero.name  | uppercase}}</h2>
-  <div><span>id:</span>{{ hero.id }}</div>
-  <div><span>nome:</span>{{ hero.name }}</div>
+<div  *ngIf="hero">
+  <h1 class="details"> Detalhes do {{ hero.name  | uppercase}}</h1>
 
 
-  <div>
+  <div class="detalhes"><span>Id: </span>{{ hero.id }}</div>
+  <div class="detalhes"><span>Nome: </span>{{ hero.name }}</div>
+
+
+
+
+
+  <div class="detalhes">
     <label for="name">Nome do herói </label>
     <input id="name" [(ngModel)]="hero.name" placeholder="name" type="text">
   </div>
+
+
+  <button  mat-raised-button (click)="goBack()">Voltar</button>
+
+
 
   </div>

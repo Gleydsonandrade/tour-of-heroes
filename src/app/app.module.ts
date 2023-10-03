@@ -14,6 +14,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -22,6 +25,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    DashboardComponent,
 
 
   ],
@@ -35,7 +39,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     AppRoutingModule,
     MatIconModule,
     FlexLayoutModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatCardModule,
+    MatListModule
+
 
 
   ],
